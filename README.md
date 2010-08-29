@@ -55,6 +55,6 @@ Use this software at your own risk. While this package has been tested thoroughl
 
 ## LICENSE
 
-This software, and its dependencies, are distributed free of charge and licensed under the GNU General Public License v3. For more information about this license and the terms of use of this software, please review the LICENSE file.
+This software, and its dependencies, are distributed free of charge and licensed under the GNU General Public License v3. For more information about this license and the terms of use of this software, please review the LICENSE.txt file.
 
 Not affiliated with Hamachi, LogMeIn, PogoPlug, Seagate, or the developers of the underlying libraries. This license does not apply to the included libraries and packages.
