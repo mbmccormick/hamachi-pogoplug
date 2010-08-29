@@ -3,12 +3,12 @@
 Install Hamachi VPN on the PogoPlug USB Device.
 
 
-## REQUIREMENTS
+## Requirements
 
 The hamachi-pogoplug package has been tested on the Seagate DockStar Pogoplug device. You will need to obtain SSH access to your networked USB device and have root permissions on the device in order for this package to function properly.
 
 
-## INSTALLATION
+## Installation
 
 Installation for this package is very simple. First, you will need to enable write access to your device. 
 
@@ -43,17 +43,17 @@ Lastly, we need to setup our device to enable write access and start Hamachi on 
     $ echo "/etc/init.d/hamachi.sh start" >> /etc/init.d/rcS
 
 
-## USAGE
+## Usage
 
 After succesful installation, you will be able to use Hamachi on your Pogoplug just like you would with any legacy Linux installation of Hamachi.
 
 
-## DISCLAIMER
+## Disclaimer
 
 Use this software at your own risk. While this package has been tested thoroughly, on the above requirements, your mileage may vary. I take no responsibility for any harmful actions this package might cause.
 
 
-## LICENSE
+## License
 
 This software, and its dependencies, are distributed free of charge and licensed under the GNU General Public License v3. For more information about this license and the terms of use of this software, please review the LICENSE.txt file.
 
