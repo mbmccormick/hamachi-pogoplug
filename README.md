@@ -16,11 +16,11 @@ Installation for this package is very simple. First, you will need to enable wri
 
 Next, copy the files in each directory of this package to the corresponding directories on the device.
 
-    $ cp etc/* /etc -r
-    $ cp root/* /root -r
-    $ cp sbin/* /sbin -r
-    $ cp usr/* /usr -r
-    $ cp var/* /var -r
+    $ cp etc/ /etc -r
+    $ cp root/.hamachi /root -r
+    $ cp sbin/ /sbin -r
+    $ cp usr/ /usr -r
+    $ cp var/ /var -r
 
 Next, we need to link some of the libraries together and modify permissions.
 
@@ -32,7 +32,7 @@ Next, we need to link some of the libraries together and modify permissions.
 
 Now we need to prepare our VPN drivers and start Hamachi.
 
-    $ tuncfg
+    $ /sbin/tuncfg
     $ hamachi-init
     $ hamachi start
     $ hamachi login
