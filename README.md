@@ -24,15 +24,20 @@ Next, copy the files in each directory of this package to the corresponding dire
 
 Next, we need to link some of the libraries together and modify permissions.
 
+    $ ln -sf /usr/lib/libstdc++.so.6.0.9 /usr/lib/libstdc++.so.6
     $ ln -sf /usr/lib/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.0.9.7
     $ ln -sf /usr/bin/hamachi /usr/bin/hamachi-init
-    $ ln -sf /bin/ifconfig /sbin/ifconfig
     $ chmod 755 /usr/bin/hamachi
     $ chmod 700 /sbin/tuncfg
 
+Next, we need to modify our path variables to point to the Hamachi binaries.
+
+    $ cd
+    $ echo "PATH=$PATH:/usr/sbin:/bin:/sbin" >> .bash_profile
+
 Now we need to prepare our VPN drivers and start Hamachi.
 
-    $ /sbin/tuncfg
+    $ tuncfg
     $ hamachi-init
     $ hamachi start
     $ hamachi login
