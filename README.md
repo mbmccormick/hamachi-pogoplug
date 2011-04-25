@@ -1,6 +1,6 @@
 # hamachi-pogoplug
 
-Install Hamachi VPN on the PogoPlug USB Device.
+Install Hamachi VPN on the PogoPlug USB device.
 
 
 ## Requirements
